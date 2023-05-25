@@ -1,5 +1,6 @@
-import { lista } from "./todoList.js";
-import todoK from "./todoK.js";
-$(function (){
-  const Todo = new todoK(lista);  
+import { lista } from "./lista.js";
+import TodoK from "./todoK.js";
+$(function () {
+    const Elem = new TodoK(lista);
+    Elem.kattintasTrigger();
 })
